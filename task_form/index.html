@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Form</title>
+</head>
+<body>
+    <main>
+        <form method="get" autocomplete="off">
+            <div style="text-align: center ;">
+                <h2>Application Form</h2>
+            </div>
+            <div>
+                <label for="Ad">Ad:</label> <br>
+                <input type="text" name="Ad" required id="Ad">
+            </div> <br>
+            <div>
+                <label for="Soyad">Soyad:</label> <br>
+                <input type="text" name="Soyad" required id="Soyad">
+            </div> <br>
+            <div>
+                <label for="Şifrə">Şifrə:</label> <br>
+                <input type="password" name="Şifrə" required minlength="3" id="Şifrə">
+            </div> <br>
+            <div>
+                <span>Cinsinizi seçin:</span> <br>
+            <label for="K">K</label>
+            <input type="radio" name="Cins" required id="K">
+    
+            <label for="Q">Q</label>
+            <input type="radio" name="Cins" required id="Q">
+            </div> <br>
+            <div>
+                <span>Bitirdiyiniz təhsil dərəcələrini seçin:"</span> <br>
+                <input type="checkbox" name="Orta" id="Orta">
+                <label for="Orta">Orta</label> <br>
+                <input type="checkbox" name="Bakalavr" id="Bakalavr">
+                <label for="Bakalavr">Bakalavr</label> <br>
+                <input type="checkbox" name="Magistr" id="Magistr">
+                <label for="Magistr">Magistr</label> <br>
+                <input type="checkbox" name="Doktor" id="Doktor">
+                <label for="Doktor">Doktor</label> <br>
+            </div> <br>
+    
+            <div>
+                <label for="Yaş">Yaş:</label> <br>
+                <input type="number" name="Yaş" required min="0" max="150" id="Yaş">
+            </div> <br>
+            <div>
+                <label for="Boy">Boy:</label> <br>
+                <input type="number" name="Boy" required min="0" max="250" id="Boy">
+            </div> <br>
+            <div>
+                <label for="Çəki">Çəki:</label> <br>
+                <input type="number" name="Çəki" required min="0" max="300" id="Çəki">
+            </div> <br>
+            <div style="text-align: center; color: blue;">
+                <button type="submit" style="color: blue;">
+                    Təsdiqlə
+                </button>
+            </div>    
+        </form>
+    </main>
+</body>
+</html>
